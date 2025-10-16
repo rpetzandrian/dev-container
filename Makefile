@@ -1,5 +1,5 @@
 up:
-	podman compose -p personal up -d
+	docker compose -p personal up -d
 
 down: 
-	podman compose -p personal down
+	docker compose -p personal down
